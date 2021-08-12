@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "health-indices"
+version = "0.0.1"
+description = "a unified collection of health indices and indicators eg bmi,bai,etc"
+authors = ["Jesse E.Agbe(JCharis) <jcharistech@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/jcharistech/health-indices"
+repository = "https://github.com/jcharistech/health-indices"
+keywords = ["health-indices","health-indicators","bmi","bodymass index","bai","birth-rate","jcharistech"]
+
+classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Operating System :: OS Independent",
+    ]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
